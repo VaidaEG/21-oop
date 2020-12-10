@@ -1,13 +1,9 @@
-class Dog {
-    constructor(name) {
-        this.name = name;
-        this.fur = 'rudas';
-    }
-    introduce() {
-        console.log(`Labas, as esu ${this.name} ir mano kailis yra ${this.fur} spalvos.`);
-    }
-    sound() {
-        console.log(`${this.name}: Au au!`);
+import { Pet } from './Pet.js';
+
+class Dog extends Pet {
+    constructor(name, furColor) {
+        super(name, furColor);
+        this.voice = 'Bark bark!';
     }
 }
 
