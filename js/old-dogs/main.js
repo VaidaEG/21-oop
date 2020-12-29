@@ -13,7 +13,7 @@ rexius.introduce();
 brisius.introduce();
 
 rexius.addLovedPerson('Zymantas');
-rexius.addLovedPerson('Andejaus');
+rexius.addLovedPerson('Andejus');
 console.log(rexius.lovedPeople);
 /*
 Gyvunai kaip objektai:

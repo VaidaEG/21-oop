@@ -4,6 +4,7 @@ class Dog extends Pet {
     constructor(name, furColor) {
         super(name, furColor);
         this.voice = 'Bark bark!';
+        this.loyal = true;
     }
 }
 
